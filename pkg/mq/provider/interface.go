@@ -2,7 +2,7 @@ package provider
 
 import (
 	amqp "github.com/rabbitmq/amqp091-go"
-	"toolMq/pkg/mq/conf"
+	"github.com/Jos-bases/toolMq/pkg/mq/conf"
 )
 
 type MqFace interface {
