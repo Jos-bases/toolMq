@@ -5,7 +5,7 @@ import (
 	"fmt"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"sync"
-	"toolMq/pkg/mq/conf"
+	"github.com/Jos-bases/toolMq/pkg/mq/conf"
 )
 
 type RabbitMq struct {
