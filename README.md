@@ -15,10 +15,10 @@
 ├── go.mod
 ├── go.sum
 └── pkg
-└── mq
-    ├── conf       
-    ├── provider   
-    └── servers    
+    └── mq
+        ├── conf       
+        ├── provider   
+        └── servers    
 ```
 
 ## Using help
