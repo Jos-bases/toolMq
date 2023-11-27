@@ -85,7 +85,7 @@ func main() {
 	// Subscribe Queue
 	server.Subscribe(key, queue, func(deliveries <-chan amqp.Delivery, s string) {
 		for delivery := range deliveries {
-			fmt.Sprintf("%v Bind %v Received the news：%v\n", key, queue.Name, string(delivery.Body))
+			log.Println(fmt.Sprintf("%v Bind %v Received the news：%v\n", key, queue.Name, string(delivery.Body)))
 		}
 	})
 }
