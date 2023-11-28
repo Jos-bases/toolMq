@@ -2,9 +2,6 @@ package provider
 
 import "time"
 
-type MqDeliveryTag uint64
-type MqMultiple bool
-
 type MqDelivery struct {
 
 	ContentType     string    // MIME content type
